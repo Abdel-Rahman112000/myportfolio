@@ -27,7 +27,7 @@ export default function EmailSection() {
         }
     }
     return (
-        <section className=' bg-banner-bg bg-no-repeat bg-center bg-cover px-12 sm:h-screen flex items-center'>
+        <section className=' bg-banner-bg bg-no-repeat bg-center bg-cover px-4 sm:h-screen flex items-center'>
             <Bg3d opacity={"1"} />
             <Transition />
             <div className='container mt-8 mx-auto grid md:grid-cols-2 py-24 gap-4 relative'>
