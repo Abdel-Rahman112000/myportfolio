@@ -22,7 +22,7 @@ export default function page() {
     return (
         <>
             <motion.div
-                className='fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#062537]'
+                className='fixed top-0 bottom-0 right-full w-screen h-screen z-[151551515] bg-[#062537]'
                 variants={transitionVarients}
                 initial='initial'
                 animate='animate'

@@ -21,15 +21,15 @@ export default function HeroSection() {
                         Hello, I`m
                         <br />
                         <motion.span
-                            initial={{ y: 500, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 3, duration: 1.5 }}
-                            className='text-cyan-600 sm:text-4xl lg:text-5xl'>
+                            initial={{ y: 500, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 2, duration: 1.5 }}
+                            className='text-cyan-600 sm:text-4xl lg:text-5xl mt-4 mb-0 inline-block'>
                             Abdel-Rahman Fathy
                         </motion.span>
 
                     </motion.h1>
                     <motion.h2
-                        initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 4, duration: 1.5 }}
-                        className='text-white mb-4 sm:text-4xl lg:text-4xl lg:leading-normal text-4xl font-bold'>
+                        initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 3, duration: 1.5 }}
+                        className='text-white sm:text-4xl lg:text-4xl lg:leading-normal text-4xl font-bold'>
                         I`m
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600  '>
                             <br />
@@ -48,10 +48,9 @@ export default function HeroSection() {
                     </motion.h2>
 
                     <motion.div
-                        initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 4.5, duration: 1.5 }}
+                        initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 3, duration: 1.5 }}
                         className='my-8 sm:my:0'
                     >
-
                         <Link href={'contact'}>
                             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500  text-white'>
                                 Hire Me
