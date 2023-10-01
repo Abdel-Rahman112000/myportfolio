@@ -32,7 +32,7 @@ export default function EmailSection() {
             <Transition />
             <div className='container mt-8 mx-auto grid md:grid-cols-2 py-24 gap-4 relative'>
                 <div className='z-10 justify-self-start'>
-                    <h5 className='text-xl font-bold text-white my-2 '>Let's Contact</h5>
+                    <h5 className='text-xl font-bold text-white my-2 '> Let's <span className='text-primary-600'>Contact</span> </h5>
                     <div className=' border-t-2 mt-10'>
                         <div className=" flex phone mt-8 items-center">
                             <div className='w-10 h-10 rounded-full flex justify-center items-center text-white border-white border-2 hover:border-primary-600 hover:text-primary-600'>
@@ -110,7 +110,6 @@ export default function EmailSection() {
                                 id='email'
                                 required
                                 className='bg-transparent outline-none shadow-inner shadow-primary-100 border border-[#33353F] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
-                                placeholder='ex : name@gmail.com'
                             />
                         </div>
 

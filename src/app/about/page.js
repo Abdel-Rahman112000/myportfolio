@@ -19,6 +19,9 @@ const DataTab = [
             <li>Regax</li>
             <li>Json</li>
             <li>React JS</li>
+            <li>Next JS</li>
+            <li>Figma</li>
+            <li>Git && Github</li>
         </ul>
     },
     {
