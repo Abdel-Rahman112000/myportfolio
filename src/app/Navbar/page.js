@@ -2,7 +2,7 @@
 import React, { startTransition, useState, useTransition } from 'react'
 
 import Link from 'next/link';
-import NavLink from '../NavLink/page';
+import NavLink from '../NavLink/NavLink';
 const navLinks = [
     {
         title: 'Home',

@@ -1,7 +1,7 @@
 'use client';
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion';
-import ProjectCard from '../ProjectCard/page';
+import ProjectCard from '../ProjectCard/ProjectCard';
 import Transition from '/src/app/Transtion/page'
 
 const ProjectsData = [
