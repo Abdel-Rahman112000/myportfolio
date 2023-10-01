@@ -27,7 +27,7 @@ export default function EmailSection() {
         }
     }
     return (
-        <section className=' bg-banner-bg bg-no-repeat bg-center bg-cover px-4 sm:h-screen flex items-center'>
+        <section className=' bg-banner-bg bg-no-repeat bg-center bg-cover px-3 sm:h-screen flex items-center'>
             <Bg3d opacity={"1"} />
             <Transition />
             <div className='container mt-8 mx-auto grid md:grid-cols-2 py-24 gap-4 relative'>
@@ -129,7 +129,7 @@ export default function EmailSection() {
                             />
                         </div>
                         <button type='submit'
-                            className='bg-primary-500 hover:bg-primary-600 hover:tracking-widest hover:w-1/3 transition-all duration-[.8s] text-white font-medium py-2.5 px-5 rounded-lg w-[24%] '
+                            className='bg-primary-500 hover:bg-primary-600 hover:tracking-widest sm:hover:w-1/3 transition-all duration-[.8s] text-white font-medium py-2.5 px-5 rounded-lg w-1/2 sm:w-[24%] '
                         >
                             Send Massage
                         </button>

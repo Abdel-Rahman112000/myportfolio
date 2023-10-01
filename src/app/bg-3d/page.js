@@ -22,7 +22,7 @@ export default function Bg3d({ opacity = '0' }) {
                         events: {
                             onClick: {
                                 enable: true,
-                                mode: "push",
+                                mode: "none",
                             },
                             onHover: {
                                 enable: true,
