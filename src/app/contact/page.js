@@ -35,19 +35,19 @@ export default function EmailSection() {
                     <h5 className='text-xl font-bold text-white my-2 '>Let's Contact</h5>
                     <div className=' border-t-2 mt-10'>
                         <div className=" flex phone mt-8 items-center">
-                            <div className='w-10 h-10 rounded-full flex justify-center items-center text-white border-white border-2 hover:border-purple-400 hover:text-purple-400'>
+                            <div className='w-10 h-10 rounded-full flex justify-center items-center text-white border-white border-2 hover:border-primary-600 hover:text-primary-600'>
                                 <i className="fa-solid fa-phone-volume "></i>
                             </div>
                             <p className=' text-white ml-4 text-lg'>01093340885</p>
                         </div>
                         <div className=" flex phone mt-5 items-center">
-                            <div className='w-10 h-10 rounded-full flex justify-center  items-center text-white border-white border-2 hover:border-purple-400 hover:text-purple-400 '>
+                            <div className='w-10 h-10 rounded-full flex justify-center  items-center text-white border-white border-2 hover:border-primary-600 hover:text-primary-600 '>
                                 <i className="fa-solid fa-envelope "></i>
                             </div>
                             <p className=' text-white ml-4 text-lg'>abdelrahman30688@gmail.com</p>
                         </div>
                         <div className=" flex phone mt-5 items-center">
-                            <div className='w-10 h-10 rounded-full flex justify-center items-center text-white border-white border-2 hover:border-purple-400 hover:text-purple-400 '>
+                            <div className='w-10 h-10 rounded-full flex justify-center items-center text-white border-white border-2 hover:border-primary-600 hover:text-primary-600 '>
                                 <i className="fa-solid fa-location-dot"></i>
                             </div>
                             <p className=' text-white ml-4 text-lg'>6 October Egypt</p>
@@ -129,7 +129,7 @@ export default function EmailSection() {
                             />
                         </div>
                         <button type='submit'
-                            className='bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full '
+                            className='bg-primary-500 hover:bg-primary-600 hover:tracking-widest hover:w-1/3 transition-all duration-[.8s] text-white font-medium py-2.5 px-5 rounded-lg w-[24%] '
                         >
                             Send Massage
                         </button>

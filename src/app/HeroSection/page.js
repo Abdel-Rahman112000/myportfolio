@@ -17,7 +17,7 @@ export default function HeroSection() {
                     className=' w-full col-span-8 place-self-center text-center sm:text-left justify-self-start'>
                     <motion.h1
                         initial={{ y: 500, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1, duration: 1.5 }}
-                        className='text-white mb-4 sm:text-4xl lg:text-5xl text-4xl lg:leading-normal  font-bold'>
+                        className='text-white my-8 sm:my:0 sm:text-4xl lg:text-5xl text-4xl lg:leading-normal  font-bold'>
                         Hello, I`m
                         <br />
                         <motion.span
@@ -48,7 +48,8 @@ export default function HeroSection() {
                     </motion.h2>
 
                     <motion.div
-                        initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 5, duration: 1.5 }}
+                        initial={{ x: -500, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ delay: 4.5, duration: 1.5 }}
+                        className='my-8 sm:my:0'
                     >
 
                         <Link href={'contact'}>
@@ -63,7 +64,7 @@ export default function HeroSection() {
                                 </span>
                             </button>
                         </Link>
-                        <div className='socials flex mt-3 gap-14 justify-start  '>
+                        <div className='socials flex mt-3 gap-14 ml-5 justify-center sm:justify-start  '>
                             <Link href={"https://github.com/Abdel-Rahman-Fathy"} target='_blank'>
                                 <i className="fa-brands fa-github text-white text-4xl hover:text-black mt-8"></i>
                             </Link>

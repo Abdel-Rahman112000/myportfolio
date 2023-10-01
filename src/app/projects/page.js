@@ -81,7 +81,7 @@ export default function ProjectsSection() {
                                 variants={cardVarints}
                                 initial="initial"
                                 animate={isView ? "animate" : "initial"}
-                                transition={{ duration: .3, delay: index * .4 }}
+                                transition={{ duration: .3, delay: index * .6 }}
                             >
                                 <ProjectCard
                                     imgUrl={project.image}
