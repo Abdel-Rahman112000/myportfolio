@@ -6,7 +6,7 @@ export default function ProjectCard({ imgUrl, getURL, prevURL }) {
 
     return (
         <div >
-            <div className='h-52 md:h-72 rounded-t-xl relative group hover:scale-105 transition-all duration-[.5s]  '
+            <div className='h-52 md:h-72   w-3/4 sm:w-full m-auto rounded-xl relative group hover:scale-105 transition-all duration-[.5s]  '
                 style={{ background: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center center" }}>
                 <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 ">
                     <Link target='_blank' href={getURL} className='h-14 mr-2 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link'>

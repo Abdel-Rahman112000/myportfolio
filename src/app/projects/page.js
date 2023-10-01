@@ -73,7 +73,7 @@ export default function ProjectsSection() {
         <section className='bg-banner-bg bg-no-repeat bg-center bg-cover py-24'>
             <Transition />
             <div className='container mx-auto'>
-                <h2 className=' text-4xl my-10 text-center font-semibold text-primary-600'>My Projects</h2>
+                <h2 className=' sm:text-4xl text-2xl my-10 text-center font-semibold text-primary-600'>My Projects</h2>
                 <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
                     {
                         ProjectsData.map((project, index) =>

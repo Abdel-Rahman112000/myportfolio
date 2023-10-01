@@ -24,7 +24,7 @@ export default function page() {
             <div className=' md:border rounded-md py-8 sm:px-16 flex sm:flex-row  items-center md:justify-between justify-between'>
                 {
                     archievmentsList.map((arch, index) =>
-                        <div key={index} className='ml-4  flex flex-col items-center md:mx-6  sm:pr-20 '>
+                        <div key={index} className='flex flex-col items-center justify-center   '>
                             <h2 className='text-white md:text-4xl text-3xl font-bold flex flex-row '>
                                 {arch.prefix}
                                 <AnimatedNumbers
