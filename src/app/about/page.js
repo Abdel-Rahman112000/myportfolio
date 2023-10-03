@@ -15,6 +15,7 @@ const DataTab = [
             <li>Bootstrap</li>
             <li>Tailwind</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>Jquery</li>
             <li>Regax</li>
             <li>Json</li>
