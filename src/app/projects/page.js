@@ -12,13 +12,6 @@ const ProjectsData = [
         image: "/assets/Projects/screencapture-movies-react-two-vercel-app-2023-09-03-15_18_33.png",
         gitURL: "https://github.com/Abdel-Rahman-Fathy/Movies-React",
         prevURL: "https://movies-react-two.vercel.app/"
-    },
-    {
-        id: 2,
-        title: "La-Collection (E-commerce)",
-        image: "/assets/Projects/4.png",
-        gitURL: "https://github.com/Abdel-Rahman-Fathy/La-collection-e-commerce",
-        prevURL: "https://la-collection-e-commerce.vercel.app/"
     }
     ,
     {
@@ -39,6 +32,14 @@ const ProjectsData = [
     ,
     {
         id: 5,
+        title: "Cruds-System",
+        image: "/assets/Projects/cruds.png",
+        gitURL: "https://github.com/Abdel-Rahman-Fathy/Crud-System",
+        prevURL: "http://abdel-rahman-fathy.github.io.cruds/"
+    }
+    ,
+    {
+        id: 6,
         title: "Book Mark",
         image: "/assets/Projects/bookmark.png",
         gitURL: "https://github.com/Abdel-Rahman-Fathy/Book-Mark",
@@ -46,7 +47,7 @@ const ProjectsData = [
     }
     ,
     {
-        id: 6,
+        id: 7,
         title: "Landing-Page (Travel)",
         image: "/assets/Projects/landing.png",
         gitURL: "https://github.com/Abdel-Rahman-Fathy/Travel-Landing-Page",
@@ -54,7 +55,7 @@ const ProjectsData = [
     }
     ,
     {
-        id: 7,
+        id: 8,
         title: "Landing-Page (Travel)",
         image: "/assets/Projects/res.png",
         gitURL: "https://github.com/Abdel-Rahman-Fathy/Restaurant-Landing-Page",

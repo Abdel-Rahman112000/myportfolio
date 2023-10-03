@@ -16,9 +16,10 @@ const DataTab = [
             <li>Tailwind</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
+            <li>LocalStorage</li>
             <li>Jquery</li>
             <li>Regax</li>
-            <li>Json</li>
+            <li>JSON</li>
             <li>React JS</li>
             <li>Next JS</li>
             <li>Figma</li>
