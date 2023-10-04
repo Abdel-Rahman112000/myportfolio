@@ -35,7 +35,7 @@ const ProjectsData = [
         title: "Cruds-System",
         image: "/assets/Projects/cruds.png",
         gitURL: "https://github.com/Abdel-Rahman-Fathy/Crud-System",
-        prevURL: "http://abdel-rahman-fathy.github.io.cruds/"
+        prevURL: "https://abdel-rahman-fathy.github.io/Crud-System/"
     }
     ,
     {
