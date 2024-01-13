@@ -51,7 +51,6 @@ export default function EmailSection() {
   // Clear Inpute after Fill
   const clearInputs = (e) => {
     for (let i = 0; i < e.target.length - 1; i++) {
-      console.log(e.target[i].value);
       e.target[i].value = "";
     }
   };

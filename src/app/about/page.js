@@ -29,6 +29,21 @@ const DataTab = [
     ),
   },
   {
+    id: "experience",
+    title: "Experience",
+    content: (
+      <ul className="grid gap-3 pl-2">
+        <li>Vision Dimensions :</li>
+        <p>
+          In my role at Vision Dimensions, I played a pivotal part in upgrading
+          an ERP system by seamlessly integrating React with Laravel. I
+          contributed to the transition from Laravel Blade to React for the
+          remaining modules.
+        </p>
+      </ul>
+    ),
+  },
+  {
     id: "education",
     title: "Education",
     content: (
@@ -36,15 +51,6 @@ const DataTab = [
         <li>Bachelors in computer science | 2023 | MUST </li>
         <li>Major : Computer science</li>
         <li>GPA : 3.5</li>
-      </ul>
-    ),
-  },
-  {
-    id: "experience",
-    title: "Experience",
-    content: (
-      <ul className="grid gap-3 pl-2">
-        <li>3rd place, Smart Government Hackathon</li>
       </ul>
     ),
   },
