@@ -82,9 +82,7 @@ export default function AboutSection() {
             Ambitious front-end developer with extensive experience developing
             user experiences across the web and turning designs into responsive
             and interactive web pages. I am excited to work with a professional
-            team to expand my skills, knowledgeable with skills in HTML5, CSS3,
-            Tailwind CSS, JavaScript, and in working with front-end libraries
-            such as React.js.{" "}
+            team to expand my skills.
           </p>
         </div>
         <div>
