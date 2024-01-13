@@ -11,19 +11,18 @@ const DataTab = [
     title: "Skills",
     content: (
       <ul className="list-none  gap-y-2  grid grid-cols-3  ">
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>Bootstrap</li>
         <li>Tailwind</li>
-        <li>JavaScript</li>
+        <li>JavaScript/Es6</li>
         <li>TypeScript</li>
-        <li>LocalStorage</li>
         <li>Jquery</li>
-        <li>Regax</li>
+        <li>Regex</li>
         <li>JSON</li>
         <li>React JS</li>
-        <li>Next JS</li>
-        <li>Figma</li>
+        <li>Material UI</li>
+        <li>Prime React</li>
         <li>Git && Github</li>
       </ul>
     ),
