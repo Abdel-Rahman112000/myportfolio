@@ -19,10 +19,13 @@ const DataTab = [
         <li>TypeScript</li>
         <li>Jquery</li>
         <li>Regex</li>
-        <li>JSON</li>
         <li>React JS</li>
         <li>Material UI</li>
         <li>Prime React</li>
+        <li>React-hook-form</li>
+        <li>Zod validation</li>
+        <li>i18n</li>
+        <li>SQL</li>
         <li>Git && Github</li>
       </ul>
     ),
