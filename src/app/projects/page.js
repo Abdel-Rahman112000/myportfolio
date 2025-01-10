@@ -7,21 +7,22 @@ import Transition from "/src/app/Transtion/page";
 const ProjectsData = [
   {
     id: 1,
+    title: "Egyptos-Travel",
+    image: "/assets/Projects/Egyptos.png",
+    gitURL: "https://github.com/Abdel-Rahman112000/Tourist-Site",
+    prevURL: "https://egyptos-travel.com/en",
+  },
+  {
+    id: 2,
     title: "React movies website",
     descriptopn:
       "Project Movies is a comprehensive web application developed using React.js",
     image:
       "/assets/Projects/screencapture-movies-react-two-vercel-app-2023-09-03-15_18_33.png",
-    gitURL: "https://github.com/Abdel-Rahman-Fathy/Movies-React",
+    gitURL: "https://github.com/Abdel-Rahman112000/Movies-React",
     prevURL: "https://movies-react-two.vercel.app/",
   },
-  {
-    id: 3,
-    title: "FAR WAY",
-    image: "/assets/Projects/FARWAY.png",
-    gitURL: "https://github.com/Abdel-Rahman-Fathy/Far-Away-React.js",
-    prevURL: "https://far-away-react-p0m6tiu0a-abdel-rahman-fathy.vercel.app/",
-  },
+
   {
     id: 4,
     title: "Smart Login",
@@ -30,32 +31,18 @@ const ProjectsData = [
     prevURL: "https://abdel-rahman-fathy.github.io/Login-Smart/",
   },
   {
-    id: 5,
-    title: "Cruds-System",
-    image: "/assets/Projects/cruds.png",
-    gitURL: "https://github.com/Abdel-Rahman-Fathy/Crud-System",
-    prevURL: "https://abdel-rahman-fathy.github.io/Cruds-System/",
-  },
-  {
-    id: 6,
-    title: "Book Mark",
-    image: "/assets/Projects/bookmark.png",
-    gitURL: "https://github.com/Abdel-Rahman-Fathy/Book-Mark",
-    prevURL: "https://abdel-rahman-fathy.github.io/Book-Mark/",
-  },
-  {
     id: 7,
-    title: "Landing-Page (Travel)",
-    image: "/assets/Projects/landing.png",
-    gitURL: "https://github.com/Abdel-Rahman-Fathy/Travel-Landing-Page",
-    prevURL: "https://abdel-rahman-fathy.github.io/Travel-Landing-Page/",
-  },
-  {
-    id: 8,
     title: "Landing-Page (Travel)",
     image: "/assets/Projects/res.png",
     gitURL: "https://github.com/Abdel-Rahman-Fathy/Restaurant-Landing-Page",
     prevURL: "https://abdel-rahman-fathy.github.io/Restaurant-Landing-Page/",
+  },
+  {
+    id: 8,
+    title: "Landing-Page (Travel)",
+    image: "/assets/Projects/landing.png",
+    gitURL: "https://github.com/Abdel-Rahman-Fathy/Travel-Landing-Page",
+    prevURL: "https://abdel-rahman-fathy.github.io/Travel-Landing-Page/",
   },
 ];
 

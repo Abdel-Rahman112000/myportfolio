@@ -80,7 +80,7 @@ export default function Navbar() {
             <ul className=" bg-[#1e2535] list-none flex flex-col gap-4 mt-4 py-2 rounded-2xl">
               {navLinks.map((link, index) => (
                 <li
-                  className="hover:tracking-widest hover:font-semibold transition-all duration-[.5s]"
+                  className="hover:tracking-widest hover:font-semibold transition-all duration-[.5s] "
                   onClick={() => setOpenNavbar(!openNavbar)}
                   key={index}
                 >
